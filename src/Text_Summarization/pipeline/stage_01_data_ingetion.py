@@ -2,6 +2,7 @@ from src.Text_Summarization.config.configuration import ConfigrationManager
 from src.Text_Summarization.components.data_ingestion import DataIngestion
 from src.Text_Summarization.logging import logger
 from src.Text_Summarization.exception import CustomException
+import sys
 
 class DataIngestionPipeline:
     def __init__(self):
